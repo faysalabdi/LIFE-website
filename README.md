@@ -7,10 +7,10 @@ According to research done by a local council in Melbourne, the wellness industr
 ## Online Services
 LIFE will include the following online services:
 
--Yoga
--Meditation
--Stretching
--Healthy Habits
+- Yoga
+- Meditation
+- Stretching
+- Healthy Habits
 
 
 ## Project Tasks
