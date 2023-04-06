@@ -1,0 +1,17 @@
+main .EnquiryForm{
+  text-align: center;
+  color:rgb(248, 244, 244);
+}
+
+main .container{
+  color:rgb(248, 244, 244);
+}
+
+/* mobile reponsive styles */
+@media only screen and (max-width: 375px){
+main .container{
+
+  text-align: center;
+  color:rgb(248, 244, 244);
+}
+}

@@ -1,0 +1,46 @@
+#meal-planner {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #ceecac;
+  }
+  
+  
+  label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  
+  select,
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #meal-plan-results {
+    width: 100%;
+    text-align: left;
+    margin-top: 20px;
+    color: white;
+  }
+  
+  

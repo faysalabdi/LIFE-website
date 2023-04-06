@@ -1,0 +1,89 @@
+body {
+    background-color: #F5F5F5;
+  }
+  
+  form {
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    font-size: 24px;
+    color: #2E37FE;
+    margin-bottom: 8px;
+  }
+  
+  .form-group input[type="text"],
+  .form-group input[type="email"],
+  .form-group input[type="tel"],
+  .form-group select {
+    height: 30px;
+    width: 450px;
+    box-sizing: border-box;
+    border: 1px solid #2E37FE;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .form-group input::placeholder {
+    color: #CCC;
+    font-size: 18px;
+  }
+  
+  .form-group textarea {
+    font-size: 16px;
+    width: 440px;
+  }
+  
+  .form-group select {
+    width: 140px;
+    height: 25px;
+  }
+  
+  .form-group input[type="radio"] {
+    margin: 0 8px;
+  }
+  
+  .form-group input[type="submit"] {
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    padding: 8px;
+    width: 120px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    color: #2E37FE;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="reset"] {
+    font-size: 20px;
+    text-align: center;
+    float: center;
+    padding: 8px;
+    width: 120px;
+    border: 1px solid blue;
+    border-radius: 20px;
+    background-color: white;
+    color: #2E37FE;
+    cursor: pointer;
+  }
+  
+  .form-group input[type="submit"]:hover {
+    color: white;
+    background-color: #2E37FE;
+  }
+  
+  .form-group input[type="reset"]:hover {
+    color: white;
+    background-color: #2E37FE;
+  }
+  

@@ -1,0 +1,341 @@
+html, body {
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+
+/* Set global styles */
+body {
+
+  height:100%;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #555;
+  background-color: #c8fac0;
+}
+/**/
+
+
+/**/
+
+/* Set styles for header */
+header {
+  background-color: rgb(110, 141, 73);
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header .logo {
+  color: rgb(175, 249, 152);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+}
+
+
+header #toggle-header{
+  display: none;
+}
+
+
+header nav {
+  display: flex;
+}
+
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+
+header nav ul li {
+  margin-left: 20px;
+}
+
+
+header nav ul li a {
+  color: rgb(138, 221, 119);
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+
+header nav ul li a:hover {
+  color: rgb(104, 152, 77);
+}
+
+
+/* Set styles for main content */
+main {
+  background-color: rgb(49, 55, 47); 
+}
+
+
+main .Main {
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+}
+
+
+main .Main h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+main .Main p {
+  font-size: 1.4em;
+  margin-bottom: 18px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+
+main .Main .button {
+  display: inline-block;
+  padding: 12px 18px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+
+main .Main .button:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+main .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  padding: 50px 0;
+}
+
+
+main .section {
+  background-color: #ceecac;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15%;
+}
+main .section h2 {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+
+main #registrationForm{
+  color:#ceecac;
+}
+
+
+/* Set styles for footer */
+footer {
+  
+  background-color: rgb(110, 141, 73);
+  color: #fff;
+  padding: 20px 0;
+}
+
+
+footer .container {
+  
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+footer .social-links a {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+
+footer .social-links img {
+  width: 30px;
+}
+
+
+footer form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+}
+
+  footer form label {
+  color: #fff;
+  margin-right: 10px;
+}
+
+  footer form input[type="email"] {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #fff;
+}
+
+
+  footer form input[type="submit"] {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #00af00;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+  }
+
+
+  footer form input[type="submit"]:hover {
+  background-color: #049a04;
+  }
+
+
+/* mobile reponsive styles */
+@media only screen and (max-width: 375px) {
+ 
+  /* Set styles for header */
+  header #toggle-header{
+  display: flex;
+  background-color: rgb(91, 175, 72);
+  }
+  
+
+  header {
+    padding: 10px 0;
+  }
+
+
+  header .container {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  header a.myservicesNav{
+    font-size: 1.5em;
+    padding: 5px 10px;
+    color: rgb(175, 249, 152);
+  text-decoration: none;
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 20px;
+  padding: 10px 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  }
+
+
+  header nav {
+    display: none;
+  }
+
+  header button {
+    background-color: rgb(110, 141, 73);
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+
+
+  header button:hover {
+    background-color: rgb(104, 152, 77);
+  }
+
+
+  header nav.responsive {
+    
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(110, 141, 73);
+    position: absolute;
+    top: 55px;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+  }
+
+
+  header nav.responsive ul {
+    width: 100%;
+  }
+
+
+  header nav.responsive ul li {
+    width: 100%;
+    text-align: center;
+    bottom: 10px;
+  }
+  
+
+  header nav.responsive ul li a {
+  font-size: 1em;
+  }
+   
+
+    .vertical-center-4 {
+        flex-wrap: wrap;
+    }
+    .vertical-center-4 div {
+        width: 10%;
+    }
+    .vertical-center-4 img {
+        width: 10%;
+    }
+
+
+}
+  main .container{
+    grid-template-columns:  1fr;
+    flex-direction: column;
+  }
+
+  footer .container{
+    grid-template-columns:  1fr;
+    flex-direction: column;
+  }
+
+
+   
